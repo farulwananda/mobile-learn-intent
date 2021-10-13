@@ -16,11 +16,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Implicit = findViewById(R.id.implicit);
+        Explicit = findViewById(R.id.explicit);
 
         Implicit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ImplicitActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Explicit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ExplicitIntent.class);
                 startActivity(intent);
             }
         });

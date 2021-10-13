@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarIntent">
         <activity
+            android:name=".ExplicitIntentSecond"
+            android:exported="true" />
+        <activity
+            android:name=".ExplicitIntent"
+            android:exported="true" />
+        <activity
             android:name=".ImplicitActivity"
             android:exported="true" />
         <activity
@@ -18,6 +24,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
