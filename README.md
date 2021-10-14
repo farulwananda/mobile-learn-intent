@@ -3,7 +3,7 @@
  
 Preview :
 
-<img src="images/implicit.png" width="300">
+<img src="images/intentImp.png" width="300">
 
 <img src="images/explicit.png" width="300">
 
